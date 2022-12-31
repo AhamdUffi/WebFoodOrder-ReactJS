@@ -1,0 +1,16 @@
+.roundedPill {
+  background-color: rgba(255, 0, 0, 1);
+  padding: 4px;
+  width: 90px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  border: none;
+}
+
+.roundedPill:hover,
+.roundedPill:active {
+  background-color: rgba(255, 0, 0, 0.8);
+  cursor: pointer;
+}

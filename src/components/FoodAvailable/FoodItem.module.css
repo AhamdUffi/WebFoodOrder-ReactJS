@@ -1,0 +1,27 @@
+.food {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.food__title {
+  display: grid;
+  align-items: flex-start;
+}
+
+.food__title h5 {
+  font-size: 16px;
+}
+
+.food__title p {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.food__title p:nth-child(3) {
+  color: orange;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: none;
+}

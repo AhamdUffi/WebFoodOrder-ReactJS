@@ -1,0 +1,82 @@
+.order_list {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.order_list li {
+  border-bottom: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.order_list .detail {
+}
+
+.order_list .detail .detail__title {
+  grid-area: title;
+}
+
+.order_list .detail__price {
+  display: inline-block;
+  color: orange;
+  font-style: italic;
+  font-weight: bold;
+  width: 52px;
+}
+
+.order_list .detail__amount {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 2px;
+  margin-left: 80px;
+}
+
+.edit_item {
+  display: flex;
+  gap: 12px;
+}
+
+.edit_item span {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  width: 37px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.total {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.total span {
+  font-weight: bold;
+}
+
+.action {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.action button:nth-child(1) {
+  border: 2px solid red;
+  color: red;
+  background-color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.action button:nth-child(2) {
+  border: 2px solid white;
+  color: white;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+}
